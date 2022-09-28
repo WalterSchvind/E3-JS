@@ -134,7 +134,7 @@ const renderPizza = () => {
   return ` 
     <div class= "card-container">
       <div class="pizza-card">
-        <img src="/E3 JS/assets/${pizza.id}.jpg" alt=Pizza de ${pizza.nombre} class="pizza-card-img">
+        <img src="/assets/${pizza.id}.jpg" alt=Pizza de ${pizza.nombre} class="pizza-card-img">
         <h2 id="nombre">
           <p> ${pizza.nombre} </p>
         </h2>
@@ -164,7 +164,7 @@ const renderPizzaVieja = () => {
   return ` 
     <div class= "card-container">
       <div class="pizza-card">
-        <img src="/E3 JS/assets/${pizza.id}.jpg" alt=Pizza de ${pizza.nombre} class="pizza-card-img">
+        <img src="/assets/${pizza.id}.jpg" alt=Pizza de ${pizza.nombre} class="pizza-card-img">
         <h2 id="nombre">
           <p> ${pizza.nombre} </p>
         </h2>
